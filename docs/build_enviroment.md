@@ -70,7 +70,7 @@ brew install visual-studio-code --cask
 
 ### .vscode/settings.json の作成
 
-ホームディレクトリに`.vscode/settings.json`を作成し、下記を記述
+ルートに`.vscode/settings.json`を作成し、下記を記述
 
 ```
 {
