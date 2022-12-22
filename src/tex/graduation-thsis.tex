@@ -1,0 +1,45 @@
+\documentclass[9pt, a4paper, titlepage]{ltjsreport} 
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref} %ハイパーリンクの設定
+\usepackage{here}
+\usepackage{ascmac}
+\usepackage{mdframed}
+
+\setcounter{tocdepth}{2} % subsubsectionまで目次に表示する(デフォルトはsectionまで)
+\setcounter{secnumdepth}{4} % subsubsectionまで番号をつける
+
+\title{卒論タイトル}
+\author{学科\\大学\\指名}
+\date{年月}
+
+\begin{document}
+  % 表紙
+  \maketitle
+
+  % 概要
+  \input{abstract.tex}
+
+  % 目次
+  \tableofcontents
+
+  % 第1章
+  \input{chapter1.tex}
+
+  % 第2章
+  \input{chapter2.tex}
+
+  % 第3章
+  \input{chapter3.tex}
+
+  % 第4章
+  \input{chapter4.tex}
+
+  % 第5章
+  \input{chapter5.tex}
+
+  % 謝辞
+  \input{acknowledgments.tex}
+
+  % 参考文献
+  \input{reference.tex}
+\end{document}
